@@ -1,7 +1,5 @@
-@font-face {
-    font-family: Inconsolata;
-    src: url("../media/Inconsolata.zip");
-}
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Inconsolata&family=Permanent+Marker&display=swap');
+
 @font-face {
     font-family: hexagonFont;
     src: url("../media/HoneycombHappiness-ywnRm.ttf");
@@ -21,14 +19,8 @@ h2{
     color: #ff7601;
 }
 .card-title{
-    font-family: "Iconsolata", cursive;
+    font-family: 'Inconsolata', monospace;
 }
-/* .projects{
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-} */
-
 .fa-brands{
     color: #ff7601;
 }
