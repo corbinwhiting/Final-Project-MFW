@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Inconsolata;
+    src: url("../media/Inconsolata.zip");
+}
+@font-face {
+    font-family: hexagonFont;
+    src: url("../media/HoneycombHappiness-ywnRm.ttf");
+}
+main{
+    background-color: #ff7601;
+    height: 100vh;
+    position: ;
+}
+h1{
+    color: black;
+    font-family:"hexagonFont", cursive;
+    font-size: 8rem;
+}
+h2{
+    font-family: hexagonFont;
+    color: #ff7601;
+}
+.card-title{
+    font-family: "Iconsolata", cursive;
+}
+/* .projects{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+} */
+
+.fa-brands{
+    color: #ff7601;
+}
