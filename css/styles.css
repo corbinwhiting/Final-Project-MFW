@@ -1,26 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Inconsolata&family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Inconsolata&family=Permanent+Marker&display=swap");
 
 @font-face {
-    font-family: hexagonFont;
-    src: url("../media/HoneycombHappiness-ywnRm.ttf");
+  font-family: hexagonFont;
+  src: url("../media/HoneycombHappiness-ywnRm.ttf");
 }
-main{
-    background-color: #ff7601;
-    height: 100vh;
-    position: ;
+main {
+  background-color: #ff7601;
+  height: 100vh;
+  position: ;
 }
-h1{
-    color: black;
-    font-family:"hexagonFont", cursive;
-    font-size: 8rem;
+h1 {
+  color: black;
+  font-family: "hexagonFont", cursive;
+  font-size: 8rem;
 }
-h2{
-    font-family: hexagonFont;
-    color: #ff7601;
+h2 {
+  font-family: hexagonFont;
+  color: #ff7601;
 }
-.card-title{
-    font-family: 'Inconsolata', monospace;
+.card-title {
+  font-family: "Inconsolata", monospace;
 }
-.fa-brands{
-    color: #ff7601;
+.fa-brands {
+  color: #ff7601;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 85px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 55px;
+  }
 }

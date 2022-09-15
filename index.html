@@ -4,7 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://kit.fontawesome.com/0fb673598b.js" crossorigin="anonymous"></script>
+    <meta
+      name="description"
+      content="A Web Development Portfolio Homepage by Corbin Whiting."
+    />
+    <script
+      src="https://kit.fontawesome.com/0fb673598b.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,154 +20,190 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Bootstrap Boilerplate</title>
+    <title>CORBINCODES</title>
   </head>
+
   <body>
-  <!-- Start of Navbar -->
-  <nav class="navbar navbar-dark navbar-expand-lg bg-black fixed-top">
+    <!-- Start of Navbar -->
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="#home">Home</a>
-          <a class="nav-link" href="#projects">Projects</a>
-          <a class="nav-link" href="#contact">Contact</a>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-black fixed-top">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
         </div>
-      </div>
+      </nav>
     </div>
-  </nav>
-  <!-- End of Navbar -->
-    <!-- Start of Welcome Page -->
+    <!-- End of Navbar -->
+
+    <!-- JUMBOTRON -->
     <main class="d-flex justify-content-center align-items-center" id="home">
-      <h1><span class="text-white">MY</span>CODE</h1>
+      <h1><span class="text-white">CORBIN</span>CODES</h1>
     </main>
-    <!-- End of Welcome Page -->
-    <!-- Start of My Work -->
-    
-    <div class="container-fluid py-xl-5 py-sm-4 text-center bg-dark" id="projects">
+    <!-- End of JUMBOTRON -->
+
+    <!-- PROJECTS -->
+    <section
+      class="container-fluid py-xl-5 py-sm-4 text-center bg-dark"
+      id="projects"
+    >
       <div class="row">
         <h2>PROJECTS</h2>
-        <div class="col-md-6 col-lg-3">
-          <div class="card">
-            <img
-              src="./media/First Website.png"
-              class="card-img-top"
-            />
-            <div class="card body">
-              <h5 class="card-title"><a href="https://corbinwhiting.github.io/FinalProject/">My First Website</a></h5>
-              <p class="card-text">
-                This is my very first website, created for my Websites For Beginners course at Bitwise Industries.
-              </p>
-            </div>
+      </div>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="./media/First Website.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">My First Website</h5>
+            <p class="card-text">
+              This is my very first website, created for my Websites For
+              Beginners course at Bitwise Industries.
+            </p>
+            <button class="btn btn-outline-dark" type="button">
+              <a
+                href="https://corbinwhiting.github.io/FinalProject/"
+                class="nav-link"
+                >Visit</a
+              >
+            </button>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
-          <div class="card">
-            <img
-            src="./media/Screenshot 2022-09-14 210633.png"
-              class="card-img-top"
-            />
-            <div class="card body">
-              <h5 class="card-title"><a href="https://corbinwhiting.github.io/parallax-practice/#"></a>Parallax Practice</h5>
-              <p class="card-text">
-                This is an example of a practice page completed for my Mobile Friendly Websites class at Bitwise Industries.
-              </p>
-            </div>
+        <div class="card">
+          <img src="./media/parallax.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Parallax Practice</h5>
+            <p class="card-text">
+              This is an example of a practice page completed for my Mobile
+              Friendly Websites class at Bitwise Industries.
+            </p>
+            <button class="btn btn-outline-dark" type="button">
+              <a
+                href="https://corbinwhiting.github.io/parallax-practice/"
+                class="nav-link"
+                >Visit</a
+              >
+            </button>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
-          <div class="card">
-            <img
-              src="./media/Screenshot 2022-09-14 211639.png"
-              class="card-img-top"
-            />
-            <div class="card body">
-              <h5 class="card-title">Event Landing Page</h5>
-              <p class="card-text">
-                This is an example of a site modelled to look like an event landing page also for Mobile Friendly Websites class.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="card">
-            <img
-              src="./media/screenshot (2).png"
-              class="card-img-top"
-            />
-            <div class="card body">
-              <h5 class="card-title">Blah blah</h5>
-              <p class="card-text">
-                This is the site of future projects, I'd anticipate turning this into a carousel to make room and feature more work.
-              </p>
-            </div>
+        <div class="card">
+          <img
+            src="./media/event-landing-page.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Event Landing Page</h5>
+            <p class="card-text">
+              This is an example of a site modelled to look like an event
+              landing page also for Mobile Friendly Websites class.
+            </p>
+            <button class="btn btn-outline-dark" type="button">
+              <a
+                href="https://corbinwhiting.github.io/FinalProject/"
+                class="nav-link"
+                >Visit</a
+              >
+            </button>
           </div>
         </div>
       </div>
-    </div>
-
     </section>
-    <!-- End of My Work -->
-    <!-- Start of Third Section -->
-    <div class="container mt-5" id="contact">
-      <h2>Contact Me!</h2>
-      <form class="row g-3">
-        <div class="col-md-6">
-          <label for="firstName" class="form-label">First Name</label>
-          <input type="text" class="form-control" id="firstName" required>
-        </div>
-        <div class="col-md-6">
-          <label for="lastName" class="form-label">Last Name</label>
-          <input type="text" class="form-control" id="lastName" required>
-        </div>
-        <div class="col-md-8">
-          <label for="emailInfo" class="form-label">E-mail</label>
-          <input type="email" class="form-control" id="emailInfo" required>
-        </div>
-        <div class="col-md-4">
-          <label for="phoneNumber" class="form-label">Phone Number</label>
-          <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (555) 555-5555">
-        </div>
-        <div class="col-md-12">
-          <label for="comments" class="form-label">Comments, questions?</label>
-          <textarea class="form-label" id="comments" cols="145" rows="3" required></textarea>
-        </div>
-        <div class="col-md-12">
-          <button type="submit" class="btn btn-warning">Submit</button>
-        </div>
-    </form>
-    </div>
-    
-   
+    <!-- End of PROJECTS -->
 
-    <!-- End of Third Section -->
-    <!-- Start of Footer -->
-    <footer>
-      <div class="d-flex justify-content-center align-items-center bg-black text-white">
-        <div>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-snapchat"></i>
+    <!-- CONTACT -->
+    <section class="container-fluid mt-5" id="contact">
+      <h2 class="text-center fs-1">Contact Me!</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form
+            action="https://corbinwhiting@gmail.com"
+            method="POST"
+            class="py-4"
+          >
+            <div class="mb-3">
+              <label for="name" class="form-label">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message:</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+
+            <div class="text-center">
+              <button class="btn btn-outline-dark" type="submit">Submit</button>
+            </div>
+          </form>
         </div>
-        <!-- <span>&copy;2022 All Rights Reserved</span> -->
+      </div>
+    </section>
+    <!-- End of CONTACT -->
+
+    <!-- FOOTER -->
+    <footer>
+      <div
+        class="d-flex flex-column justify-content-center align-items-center bg-black text-white py-2"
+      >
+        <div>
+          <a href="https://www.twitter.com"
+            ><i class="fa-brands fa-twitter fa-xl"></i
+          ></a>
+          <a href="https://www.facebook.com"
+            ><i class="fa-brands fa-facebook fa-xl"></i
+          ></a>
+          <a href="https://www.instagram.com"
+            ><i class="fa-brands fa-instagram fa-xl"></i
+          ></a>
+          <a href="https://www.snapchat.com"
+            ><i class="fa-brands fa-snapchat fa-xl"></i
+          ></a>
+        </div>
+        <p class="m-0">&copy;2022 All Rights Reserved</p>
       </div>
     </footer>
-    <!-- End of Footer -->
+    <!-- End of FOOTER -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
